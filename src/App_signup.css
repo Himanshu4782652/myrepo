@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background for better contrast */
+  }
+  
+  .auth-form-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure form takes up the entire viewport height */
+  }
+  
+  /* Form styles */
+  .Signin-form1 {
+    background-color: #b59a5b;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 350px; /* Reasonable form width */
+  }
+  
+  .Signin-form1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .Signin-form1 input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #460e0e;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .Signin-form1 input[type="submit"] {
+    background-color: #2506f4; /* Green color for signin button */
+    color: rgba(67, 168, 151, 0.609);
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .Signin-form1 input[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  /* Link button (Signup) */
+  .link-btn1 {
+    text-decoration: none;
+    color: #333; /* Darker text for better contrast */
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: block; /* Display as block for better layout */
+    transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
+  }
+  
+  .link-btn1:hover {
+    color: #007bff; /* Blue color on hover for links */
+  }
+  
+  .h1{
+      color: #333;
+  }
